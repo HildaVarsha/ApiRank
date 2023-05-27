@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Poppins", sans-serif;
+}
+/* rank */
+.data-container {
+  padding: 2rem;
+}
+.main-head {
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17% 17% 17%;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.card-model {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17% 17% 17%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+.shadow-class:hover {
+  box-shadow: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.search-input {
+  padding: 20px;
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  right: 14px;
+}
+.rank-card-hover :hover {
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+.image {
+  width: 50px;
+  height: 50px;
+}
+.button-style {
+  border: none;
+  background-color: transparent;
+}
+/* card */
+.double-card {
+  display: grid;
+  grid-template-columns: 25% 50%;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.card-modal-one {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.single-flag {
+  width: 100%;
+  height: 90px;
+}
+.single-head {
+  text-align: center;
+}
+.card-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inside-values {
+  padding: 20px;
+}
+.card-data {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
